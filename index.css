@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #3a86ff;
+    margin-bottom: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    background: #3a86ff;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #3a86ff;
+    font-weight: bold;
+}
+
+#delete-btn, #delete1-btn {
+    background: white;
+    color: #3a86ff;
+}
+
+#theme-btn {
+    background: #a9def9;
+    border: 1px solid #a9def9;
+    border-radius: 20px ;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", 
+                 "Android Emoji", "EmojiSymbols", "Twemoji Mozilla", 
+                 "Segoe UI Symbol", system-ui, -apple-system, sans-serif;
+    font-variant-emoji: emoji;
+    text-rendering: optimizeLegibility;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #3a86ff;
+}
+
+
+
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+body.dark-theme input {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #3a86ff;
+}
+body.dark-theme #delete-btn, 
+body.dark-theme #delete1-btn {
+    background: white;
+    color: #3a86ff;
+}
+body.dark-theme #theme-btn {
+background: #0d3b66;
+border: 1px solid #0d3b66;
+}
