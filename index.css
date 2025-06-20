@@ -1,9 +1,15 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px;
+    max-width: 400px;
+    max-height: 500px;
     transition: background-color 0.3s, color 0.3s;
+}
+
+label {
+    color: #3a86ff;
+    font-weight: 900;
 }
 
 input {
